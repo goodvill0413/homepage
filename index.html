@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>패션봉제산업상생협의회</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Noto Sans KR', sans-serif;
+    }
+
+    /* 메인 히어로 섹션 */
+    .hero {
+      position: relative;
+      background: url('https://raw.githubusercontent.com/goodvill0413/homepage/main/banner5.jpg')
+                  no-repeat center / cover;
+      min-height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* 80% 투명 배경 효과 */
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.2); /* 0.2 = 투명도 80% */
+      z-index: 1;
+    }
+
+    /* 콘텐츠는 오버레이 위 */
+    .hero .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 800px;
+    }
+
+    .hero h1 {
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      white-space: pre-line; /* 줄바꿈 유지 */
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 1.6rem;
+      }
+      .hero p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>이사장 인사말</h1>
+      <p>
+안녕하십니까.  
+패션봉제산업상생협의회 이사장 박만본입니다.
+
+우리 협의회는 상생과 나눔을 바탕으로,  
+패션봉제 산업의 더 건강한 미래를 만들어 가고 있습니다.
+
+봉제는 단순한 ‘옷 제작’이 아닙니다.  
+사람과 기술, 그리고 시간을 꿰매는 일입니다.
+
+요즘 업계에는 빠른 변화의 바람이 불고 있습니다.  
+우리는 노동조건 개선, 권익 증진,  
+안정적인 일자리와 일감 확보라는  
+뚝심 있는 실 한 가닥으로,  
+변화를 단단하게 엮어가고자 합니다.
+
+천 조각도 이어 붙이면 작품이 되듯,  
+우리의 작은 노력이 모여 산업의 미래를 만듭니다.
+
+앞으로도 봉제 현장의 목소리를 담아,  
+모두가 함께 웃을 수 있는 상생의 무대를 만들어 나가겠습니다.
+
+감사합니다.
+
+패션봉제산업상생협의회  
+이사장 박만본 드림
+      </p>
+    </div>
+  </section>
+
+</body>
+</html>
